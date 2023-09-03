@@ -32,6 +32,7 @@ function App() {
                 <SignOut />
                  <section>
                     {user ? <ChatRoom /> : <SignIn />}
+                    <h1>Welcome user</h1>
                  </section>
             </header>
         </div>
